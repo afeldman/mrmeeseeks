@@ -16,6 +16,7 @@ POOF=[]
 def MrMeeSeeks desire=[]
   
   if not desire.any?
+    puts GREETINGS.shuffle.first
     return "BYE!"    
   end
 
